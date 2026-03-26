@@ -17,6 +17,7 @@ import re
 import io
 from collections import Counter
 from wordcloud import WordCloud, STOPWORDS
+from PIL import Image
 
 # ─────────────────────────────────────────────
 # CONFIGURACIÓN
