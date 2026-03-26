@@ -23,7 +23,7 @@ from PIL import Image
 # CONFIGURACIÓN
 # ─────────────────────────────────────────────
 st.set_page_config(
-    page_title="WordCloud Studio",
+    page_title="WordCloud Studio :)",
     page_icon="☁️",
     layout="wide",
     initial_sidebar_state="expanded",
