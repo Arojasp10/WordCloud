@@ -25,13 +25,13 @@ st.set_page_config(
     page_title="WordCloud Studio",
     page_icon="☁️",
     layout="wide",
-    image = Image.open("pollo.jpg"),
     initial_sidebar_state="expanded",
 )
 
 # ─────────────────────────────────────────────
 # ESTILOS — diseño profesional / corporativo
 # ─────────────────────────────────────────────
+image = Image.open("pollo.jpg"),
 st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
