@@ -379,6 +379,7 @@ with st.sidebar:
 
     # ── Fuente ──
     st.markdown("### FUENTE DE TEXTO")
+    image = Image.open("pollo.jpg")
     fuente = st.radio("fuente", ["✍️ Escribir / Pegar", "📂 Subir archivo"],
                       label_visibility="collapsed")
     texto_input = ""
@@ -548,7 +549,7 @@ if not generar or not texto_input.strip():
                 unsafe_allow_html=True,
             )
         st.markdown('</div>', unsafe_allow_html=True)
-        image = Image.open("pollo.jpg")
+        
 
     if not texto_input.strip() and generar:
         st.warning("Ingresa un texto en el panel lateral antes de generar la nube.")
