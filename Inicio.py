@@ -379,7 +379,7 @@ with st.sidebar:
 
     # ── Fuente ──
     st.markdown("### FUENTE DE TEXTO")
-    image = Image.open("pollo.jpg")
+    st.image = Image.open("pollo.jpg")
     fuente = st.radio("fuente", ["✍️ Escribir / Pegar", "📂 Subir archivo"],
                       label_visibility="collapsed")
     texto_input = ""
