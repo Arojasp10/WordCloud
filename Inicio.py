@@ -25,6 +25,7 @@ st.set_page_config(
     page_title="WordCloud Studio",
     page_icon="☁️",
     layout="wide",
+    image = Image.open("pollo.jpg")
     initial_sidebar_state="expanded",
 )
 
