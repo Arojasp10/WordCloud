@@ -31,7 +31,7 @@ st.set_page_config(
 # ─────────────────────────────────────────────
 # ESTILOS — diseño profesional / corporativo
 # ─────────────────────────────────────────────
-image = Image.open("pollo.jpg"),
+
 st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
@@ -483,6 +483,7 @@ st.markdown("""
 # ── Pantalla de bienvenida ──
 if not generar or not texto_input.strip():
     col_izq, col_der = st.columns([3, 2], gap="large")
+    image = Image.open("pollo.jpg"),
 
     with col_izq:
         st.markdown('<div class="section-card">', unsafe_allow_html=True)
