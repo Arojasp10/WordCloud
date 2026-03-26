@@ -483,7 +483,7 @@ st.markdown("""
 # ── Pantalla de bienvenida ──
 if not generar or not texto_input.strip():
     col_izq, col_der = st.columns([3, 2], gap="large")
-    image = Image.open("pollo.jpg"),
+    
 
     with col_izq:
         st.markdown('<div class="section-card">', unsafe_allow_html=True)
@@ -548,10 +548,13 @@ if not generar or not texto_input.strip():
                 unsafe_allow_html=True,
             )
         st.markdown('</div>', unsafe_allow_html=True)
+        image = Image.open("pollo.jpg")
 
     if not texto_input.strip() and generar:
         st.warning("Ingresa un texto en el panel lateral antes de generar la nube.")
     st.stop()
+
+
 
 
 # ─────────────────────────────────────────────
